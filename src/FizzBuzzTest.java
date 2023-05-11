@@ -27,4 +27,13 @@ public class FizzBuzzTest {
         assertEquals(resultadoEsperado, resultadoReal);
     }
 
+    @org.junit.jupiter.api.Test
+    void devolucionFormatoString5Test() {
+        int num=5;
+
+        String resultadoEsperado= "Buzz";
+        String resultadoReal= FizzBuzz.getFizzBuzz(num);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
 }
