@@ -9,12 +9,15 @@ public class OperacionesTDD {
 
         String[] numeros = input.split(",");
 
-
-
         int resultado = 0;
 
         for (String numero : numeros) {
             resultado += Integer.parseInt(numero);
+
+            if(Integer.parseInt(numero) > 0) {
+                System.out.println("Numero negativo no permitido");
+                return -1;
+            }
         }
 
         return resultado;
