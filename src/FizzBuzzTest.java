@@ -90,4 +90,42 @@ public class FizzBuzzTest {
         assertEquals(resultadoEsperado, resultadoReal);
     }
 
+    @org.junit.jupiter.api.Test
+    void devolucionFormatoString11Test() {
+        int num=11;
+
+        String resultadoEsperado= "11";
+        String resultadoReal= FizzBuzz.getFizzBuzz(num);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
+    @org.junit.jupiter.api.Test
+    void devolucionFormatoString12Test() {
+        int num=12;
+
+        String resultadoEsperado= "Fizz";
+        String resultadoReal= FizzBuzz.getFizzBuzz(num);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
+    @org.junit.jupiter.api.Test
+    void devolucionFormatoString13Test() {
+        int num=13;
+
+        String resultadoEsperado= "13";
+        String resultadoReal= FizzBuzz.getFizzBuzz(num);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
+    @org.junit.jupiter.api.Test
+    void devolucionFormatoString14Test() {
+        int num=14;
+
+        String resultadoEsperado= "14";
+        String resultadoReal= FizzBuzz.getFizzBuzz(num);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
+
+
 }
