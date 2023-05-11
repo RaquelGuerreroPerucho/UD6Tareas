@@ -63,7 +63,4 @@ class OperacionesTDDTest {
         int resultadoReal= OperacionesTDD.sumarNumeros(imput);
         assertEquals(resultadoEsperado, resultadoReal);
     }
-
-
-
 }
