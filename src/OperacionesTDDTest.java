@@ -55,6 +55,15 @@ class OperacionesTDDTest {
         assertEquals(resultadoEsperado, resultadoReal);
     }
 
+    @org.junit.jupiter.api.Test
+    void operacionesTest7A() {
+        String imput="5,1002";
+
+        int resultadoEsperado= 5;
+        int resultadoReal= OperacionesTDD.sumarNumeros(imput);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
 
 
 }

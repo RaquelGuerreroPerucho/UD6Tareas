@@ -12,12 +12,17 @@ public class OperacionesTDD {
         int resultado = 0;
 
         for (String numero : numeros) {
-            resultado += Integer.parseInt(numero);
 
-            if(Integer.parseInt(numero) > 0) {
+            if(Integer.parseInt(numero) < 0) {
                 System.out.println("Numero negativo no permitido");
                 return -1;
             }
+
+            if(Integer.parseInt(numero) > 1000) {
+                System.out.println("Numero superior a 1000 ignorado");
+                continue;
+            }
+            resultado += Integer.parseInt(numero);
         }
 
         return resultado;
