@@ -17,6 +17,7 @@ public class OperacionesTDD {
 
             if(Integer.parseInt(numero) > 1000) {
                 System.out.println("Numero superior a 1000 ignorado");
+                //ASDASDD
                 continue;
             }
             resultado += Integer.parseInt(numero);
